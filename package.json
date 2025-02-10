@@ -1,0 +1,21 @@
+{
+  "name": "kenchinpurcell.com",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "run-p start:eleventy",
+    "start:eleventy": "eleventy --serve",
+    "build": "run-s clean build:eleventy",
+    "build:eleventy": "ELEVENTY_PRODUCTION=true eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [],
+  "author": "Ken Chin-Purcell",
+  "license": "ISC",
+  "description": "Personal website for Ken Chin-Purcell",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
