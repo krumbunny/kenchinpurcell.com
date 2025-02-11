@@ -1,9 +1,12 @@
+import { execSync } from "child_process";
+
 export default function (eleventyConfig) {
+  // eleventyConfig.addPassthroughCopy({ "src/static": "." });
+
   return {
+    templateFormats: ["html", "md", "njk"],
     dir: {
       input: "src",
-      includes: "_includes",
-      data: "_data",
       output: "_site",
     },
   };
