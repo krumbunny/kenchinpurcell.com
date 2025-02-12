@@ -10,3 +10,5 @@ Other times it's all bubbly and uneven:
 
 But YouTube to the rescue, I think I have some tricks to pull next time
 I froth my morning fluffy drinks.
+
+![Goblins](goblins.jpeg)

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "start": "eleventy --serve",
+    "start": "run-s clean start:eleventy",
+    "start:eleventy": "eleventy --serve",
     "build": "run-s clean build:eleventy",
     "build:eleventy": "ELEVENTY_PRODUCTION=true eleventy",
     "clean": "rm -rf _site"
